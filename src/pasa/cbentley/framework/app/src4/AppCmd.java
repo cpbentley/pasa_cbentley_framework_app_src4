@@ -38,7 +38,7 @@ public class AppCmd implements ICommandable, ICmdsApp {
       return null;
    }
 
-   public CmdNode getCmdCtx() {
+   public CmdNode getCmdNode() {
       // TODO Auto-generated method stub
       return null;
    }
