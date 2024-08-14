@@ -8,8 +8,8 @@ import pasa.cbentley.framework.cmd.src4.engine.CmdInstance;
 import pasa.cbentley.framework.cmd.src4.engine.CmdNode;
 import pasa.cbentley.framework.cmd.src4.engine.MCmd;
 import pasa.cbentley.framework.cmd.src4.interfaces.ICommandable;
-import pasa.cbentley.framework.core.src4.app.AppCtx;
-import pasa.cbentley.framework.core.src4.app.IAppli;
+import pasa.cbentley.framework.core.framework.src4.app.AppCtx;
+import pasa.cbentley.framework.core.framework.src4.app.IAppli;
 
 public class AppCmd implements ICommandable, ICmdsApp {
 

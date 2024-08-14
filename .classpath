@@ -3,9 +3,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/pasa_cbentley_byteobjects_src4"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/pasa_cbentley_core_src4"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/pasa_cbentley_framework_core_src4"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/pasa_cbentley_framework_coredraw_src4"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/pasa_cbentley_framework_coreui_src4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pasa_cbentley_framework_core_framework_src4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pasa_cbentley_framework_core_draw_src4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pasa_cbentley_framework_core_ui_src4"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/pasa_cbentley_framework_cmd_src4"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/pasa_cbentley_framework_input_src4"/>
 	<classpathentry kind="lib" path="/pasa_cbentley_core_src4/libs/cldcapi11.jar"/>

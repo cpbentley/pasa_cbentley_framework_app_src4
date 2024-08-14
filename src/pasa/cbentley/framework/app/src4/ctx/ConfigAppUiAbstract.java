@@ -1,7 +1,7 @@
 package pasa.cbentley.framework.app.src4.ctx;
 
 import pasa.cbentley.core.src4.ctx.UCtx;
-import pasa.cbentley.framework.core.src4.app.ConfigAppAbstract;
+import pasa.cbentley.framework.core.framework.src4.app.ConfigAppAbstract;
 
 public abstract class ConfigAppUiAbstract extends ConfigAppAbstract {
    protected int    h        = 320;
