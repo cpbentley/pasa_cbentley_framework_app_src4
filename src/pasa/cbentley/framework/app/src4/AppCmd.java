@@ -7,11 +7,11 @@ import pasa.cbentley.framework.cmd.src4.ctx.CmdCtx;
 import pasa.cbentley.framework.cmd.src4.engine.CmdInstance;
 import pasa.cbentley.framework.cmd.src4.engine.CmdNode;
 import pasa.cbentley.framework.cmd.src4.engine.MCmd;
-import pasa.cbentley.framework.cmd.src4.interfaces.ICommandable;
+import pasa.cbentley.framework.cmd.src4.interfaces.ICmdExecutor;
 import pasa.cbentley.framework.core.framework.src4.app.AppCtx;
 import pasa.cbentley.framework.core.framework.src4.app.IAppli;
 
-public class AppCmd implements ICommandable, ICmdsApp {
+public class AppCmd implements ICmdExecutor, ICmdsApp {
 
    protected final AppCtx apc;
 
@@ -21,7 +21,7 @@ public class AppCmd implements ICommandable, ICmdsApp {
    }
 
    public void commandAction(CmdInstance cmd) {
-      int cmdid = cmd.getCmdID();
+      int cmdid = cmd.getCmdId();
       if (cmdid == CMD_03_EXIT) {
          //how do we process UI confirmation here?
          //well if the UI must show a TentativeExit, and then if pressed OK, call the Exit cmd
@@ -43,7 +43,7 @@ public class AppCmd implements ICommandable, ICmdsApp {
       return null;
    }
 
-   public int sendEvent(int evType, Object param) {
+   public int commandEvent(int evType, Object param) {
       // TODO Auto-generated method stub
       return 0;
    }

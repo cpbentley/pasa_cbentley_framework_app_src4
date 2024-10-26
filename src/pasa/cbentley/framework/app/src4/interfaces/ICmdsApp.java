@@ -1,8 +1,8 @@
 package pasa.cbentley.framework.app.src4.interfaces;
 
-import pasa.cbentley.framework.cmd.src4.interfaces.ICmdsTag;
+import pasa.cbentley.framework.cmd.src4.interfaces.ICmds;
 
-public interface ICmdsApp extends ICmdsTag {
+public interface ICmdsApp extends ICmds {
 
    /**
     * Implemented by {@link CmdController}
